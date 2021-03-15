@@ -7,7 +7,7 @@ namespace Excs05And06
         public App()
         {
             InitializeComponent();
-            MainPage = new NavigationPage(new MainPage());
+            MainPage = new NavigationPage(new Views.TabbedMainPage());
         }
 
         protected override void OnStart()
